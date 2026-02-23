@@ -4,6 +4,7 @@ A simple **Python Packet Sniffer** built using raw sockets on Linux.
 This program captures network packets at the Ethernet level and parses **IPv4**, **ICMP**, **TCP**, and **UDP** packets.
 
 
+
 ## Features
 
 - Capture Ethernet frames
@@ -15,11 +16,13 @@ This program captures network packets at the Ethernet level and parses **IPv4**,
 - Format multi-line packet data for readability
 
 
+
 ## Requirements
 
 - Linux OS (AF_PACKET raw sockets are Linux-specific)
 - Python 3
 - Root privileges to capture packets (`sudo`)
+
 
 
 ## Usage
@@ -33,6 +36,7 @@ sudo python3 task1.py
 ```
 
 > Press `Ctrl + C` to stop the sniffer.
+
 
 
 ## Sample Output
@@ -54,12 +58,14 @@ TCP Segment:
 > Full sample output can be saved in `sample_output.txt`.
 
 
+
 ## Notes
 
 - The program runs in an **infinite loop** to continuously capture packets.  
 - The sniffer **only works on Linux** because Windows does not support `AF_PACKET`.
 
 ---
+
 
 ## Author
 
